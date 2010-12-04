@@ -19,6 +19,7 @@
 		28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD14FD0DC6FC130079059D /* EAGLView.m */; };
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		3C2B92FD12A9F2720057DF3F /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B92FC12A9F2720057DF3F /* OpenGLView.m */; };
 		3CFE4AF912A83FBA0009229C /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFE4AF812A83FBA0009229C /* Grid.m */; };
 		3CFE4B9812A8726A0009229C /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFE4B9712A8726A0009229C /* Cell.m */; };
 /* End PBXBuildFile section */
@@ -43,6 +44,8 @@
 		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Life_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Life_Prefix.pch; sourceTree = "<group>"; };
+		3C2B92FB12A9F2720057DF3F /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
+		3C2B92FC12A9F2720057DF3F /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView.m; sourceTree = "<group>"; };
 		3CFE4AF712A83FBA0009229C /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
 		3CFE4AF812A83FBA0009229C /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
 		3CFE4B9612A8726A0009229C /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
@@ -102,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				3CFE4ADE12A83E840009229C /* Models */,
+				3C2B92EF12A9F2360057DF3F /* My OpenGL Classes */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				2514C27610084DB600A42282 /* Shaders */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -139,6 +143,15 @@
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C2B92EF12A9F2360057DF3F /* My OpenGL Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3C2B92FB12A9F2720057DF3F /* OpenGLView.h */,
+				3C2B92FC12A9F2720057DF3F /* OpenGLView.m */,
+			);
+			name = "My OpenGL Classes";
 			sourceTree = "<group>";
 		};
 		3CFE4ADE12A83E840009229C /* Models */ = {
@@ -221,6 +234,7 @@
 				2514C27310084DB100A42282 /* ES2Renderer.m in Sources */,
 				3CFE4AF912A83FBA0009229C /* Grid.m in Sources */,
 				3CFE4B9812A8726A0009229C /* Cell.m in Sources */,
+				3C2B92FD12A9F2720057DF3F /* OpenGLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 //
 
 #import "LifeAppDelegate.h"
-#import "EAGLView.h"
+#import "OpenGLView.h"
 #import "Grid.h"
 
 @implementation LifeAppDelegate
@@ -16,26 +16,26 @@
 @synthesize glView;
 
 -(void)play {
-  Grid *grid = [[Grid alloc] initWithRows:5 andColumns:12];
-  [grid animateCellAtRow:2 andColumn:1];
-  [grid animateCellAtRow:2 andColumn:2];
-  [grid animateCellAtRow:2 andColumn:3];
-  [grid animateCellAtRow:2 andColumn:4];
-  [grid animateCellAtRow:2 andColumn:5];
-  [grid animateCellAtRow:2 andColumn:6];
-  [grid animateCellAtRow:2 andColumn:7];
-  [grid animateCellAtRow:2 andColumn:8];
-  [grid animateCellAtRow:2 andColumn:9];
-  [grid animateCellAtRow:2 andColumn:10];
+//  Grid *grid = [[Grid alloc] initWithRows:5 andColumns:12];
+//  [grid animateCellAtRow:2 andColumn:1];
+//  [grid animateCellAtRow:2 andColumn:2];
+//  [grid animateCellAtRow:2 andColumn:3];
+//  [grid animateCellAtRow:2 andColumn:4];
+//  [grid animateCellAtRow:2 andColumn:5];
+//  [grid animateCellAtRow:2 andColumn:6];
+//  [grid animateCellAtRow:2 andColumn:7];
+//  [grid animateCellAtRow:2 andColumn:8];
+//  [grid animateCellAtRow:2 andColumn:9];
+//  [grid animateCellAtRow:2 andColumn:10];
   
 //  Grid *grid = [[Grid alloc] initWithRows:3 andColumns:3];
 //  [grid animateCellAtRow:2 andColumn:1];
 //  [grid animateCellAtRow:2 andColumn:2];
   
-  for (NSInteger i = 0; i < 10; i++) {
-    [grid log];
-    [grid evolve];
-  }
+//  for (NSInteger i = 0; i < 10; i++) {
+//    [grid log];
+//    [grid evolve];
+//  }
   
 }
 
