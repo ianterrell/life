@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <QuartzCore/QuartzCore.h>
 
 @interface OpenGLView : UIView {
-
+  EAGLContext *context;
 }
 
+- (void)drawView;
 - (void)startAnimation;
 - (void)stopAnimation;
 
